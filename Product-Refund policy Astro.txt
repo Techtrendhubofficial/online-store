@@ -1,0 +1,119 @@
+Product-Refund policy. Astro
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Refund Policy">
+  {/* Hero Section */}
+  <section id="refund-hero" class="py-12 md:py-16 tech-gradient-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl md:text-5xl font-bold text-secondary mb-4">Refund Policy</h1>
+      <p class="text-lg text-gray-600">Your satisfaction is our priority. Learn about our refund and return process.</p>
+    </div>
+  </section>
+
+  {/* Content Section */}
+  <section id="refund-content" class="py-16 md:py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="prose prose-lg max-w-none">
+        <h2 class="text-2xl font-bold text-secondary mb-6">Return & Refund Terms</h2>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">1. Return Eligibility</h3>
+        <p class="text-gray-700 mb-4">
+          We accept returns within 14 days from the date of purchase for the following reasons:
+        </p>
+        <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+          <li>Product is defective, damaged, or malfunctioning</li>
+          <li>Product does not match the description provided on our website</li>
+          <li>Product was received in damaged condition</li>
+          <li>Wrong item was sent in your order</li>
+        </ul>
+
+        <p class="text-gray-700 mb-6">
+          <strong>Note:</strong> Items must be in original, unused condition with all original packaging and accessories for non-defect returns.
+        </p>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">2. Return Process</h3>
+        <p class="text-gray-700 mb-4">
+          To initiate a return, please:
+        </p>
+        <ol class="list-decimal list-inside space-y-2 text-gray-700 mb-6">
+          <li>Contact us via WhatsApp at <strong>+60 16-678 7883</strong> with photos of the defective item</li>
+          <li>Provide your order number and reason for return</li>
+          <li>Await approval and return instructions from our team</li>
+          <li>Ship the item back to us at your own cost (unless it's our error)</li>
+          <li>Once received and inspected, we'll process your refund within 5 business days</li>
+        </ol>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">3. Refund Method</h3>
+        <p class="text-gray-700 mb-6">
+          Refunds will be processed to the original payment method within 5-7 business days after we receive and inspect the returned item. For wholesale orders, refunds may be in the form of store credit or replacement items.
+        </p>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">4. Non-Returnable Items</h3>
+        <p class="text-gray-700 mb-4">
+          The following items cannot be returned or refunded:
+        </p>
+        <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+          <li>Items opened, used, or installed by the customer</li>
+          <li>Items damaged due to customer misuse or negligence</li>
+          <li>Items without original packaging or accessories</li>
+          <li>Items purchased on final sale or clearance basis</li>
+          <li>Custom or made-to-order items after production has begun</li>
+        </ul>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">5. Return Shipping</h3>
+        <p class="text-gray-700 mb-6">
+          For defective items or errors on our part, we provide a return label. For other returns, customers are responsible for return shipping costs. We recommend using tracked shipping to ensure safe delivery.
+        </p>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">6. Warranty Claims</h3>
+        <p class="text-gray-700 mb-6">
+          All products come with manufacturer warranty. For warranty-related issues, please contact us with proof of purchase and documentation of the defect. Warranty claims are handled separately from refunds.
+        </p>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">7. Wholesale Returns</h3>
+        <p class="text-gray-700 mb-6">
+          Wholesale orders follow the same return policy with the following additions:
+        </p>
+        <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+          <li>Returns must be documented with proper invoice numbers</li>
+          <li>Bulk returns must be pre-approved before shipment</li>
+          <li>Restocking fees may apply for non-defective returns (20-30%)</li>
+          <li>Return shipping for non-defective items is at customer's expense</li>
+        </ul>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">8. Damaged in Transit</h3>
+        <p class="text-gray-700 mb-6">
+          If your item arrives damaged:
+        </p>
+        <ol class="list-decimal list-inside space-y-2 text-gray-700 mb-6">
+          <li>Do not accept the package if possible, or refuse acceptance</li>
+          <li>Document the damage with photos</li>
+          <li>Contact us immediately via WhatsApp with photos and the courier information</li>
+          <li>We will arrange a replacement or refund at no cost to you</li>
+        </ol>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">9. Self-Pickup Returns</h3>
+        <p class="text-gray-700 mb-6">
+          For customers who purchased with self-pickup option, returns must be arranged within 7 days. Contact us to schedule a return pickup at our Shah Alam location.
+        </p>
+
+        <h3 class="text-xl font-bold text-secondary mt-8 mb-4">10. Contact Information</h3>
+        <p class="text-gray-700 mb-4">
+          For all refund and return inquiries, please contact us:
+        </p>
+        <ul class="space-y-2 text-gray-700 mb-6">
+          <li><strong>WhatsApp:</strong> +60 16-678 7883</li>
+          <li><strong>Location:</strong> Shah Alam, Malaysia</li>
+          <li><strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM</li>
+        </ul>
+
+        <p class="text-gray-600 text-sm mt-8 pt-8 border-t border-border">
+          This refund policy is effective as of 2026 and is compliant with Malaysian Consumer Protection Act 1999. Tech Tren Hub reserves the right to modify this policy at any time. For more information, contact us at techtrenhub.my@gmail.com.
+        </p>
+      </div>
+    </div>
+  </section>
+</MainLayout>
+

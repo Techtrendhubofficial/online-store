@@ -1,0 +1,65 @@
+CONTENT - catalog. Json
+{
+  "products": [
+    {
+      "id": "beats-studio-pro-navy-001",
+      "brand": "Beats",
+      "model": "Studio Pro",
+      "color": "Navy",
+      "description": "Premium over-ear headphones with Active Noise Cancelling and Spatial Audio",
+      "specifications": {
+        "active_noise_cancelling": true,
+        "spatial_audio": true,
+        "battery_life_hours": 40,
+        "connectivity": "Bluetooth 5.3",
+        "color": "Navy Blue",
+        "material": "Premium finish with comfort padding"
+      },
+      "pricing": {
+        "retail_price_rm": 1449,
+        "our_price_rm": 800,
+        "discount_percentage": 45,
+        "currency": "RM"
+      },
+      "inventory": {
+        "stock_quantity": 2,
+        "status": "Limited Stock",
+        "location": "Shah Alam"
+      },
+      "shipping": {
+        "base_location": "Shah Alam, Malaysia",
+        "coverage": "Fast shipping within West Malaysia",
+        "self_pickup": true,
+        "express_shipping": true
+      },
+      "contact": {
+        "whatsapp": "60166787883",
+        "message_template": "Hi, I'm interested in the Beats Studio Pro Navy. Can you provide more details?"
+      },
+      "content": {
+        "scripts": {
+          "duration_30s": "beats-studio-pro-navy.md#30-second-script",
+          "duration_1min": "beats-studio-pro-navy.md#1-minute-script",
+          "duration_5min": "beats-studio-pro-navy.md#5-minute-script"
+        }
+      },
+      "metadata": {
+        "created_date": "2026-05-02",
+        "category": "Premium Audio",
+        "tags": ["headphones", "audio", "beats", "premium", "wireless"],
+        "featured": true,
+        "promotion": "Limited Stock - Only 2 Units Available"
+      }
+    }
+  ],
+  "business_info": {
+    "name": "Tech Tren Hub",
+    "location": "Shah Alam, Malaysia",
+    "business_type": "Phone Gadgets & Accessories Retail & Wholesale",
+    "shipping_coverage": "West Malaysia",
+    "contact_methods": {
+      "whatsapp": "60166787883",
+      "whatsapp_formatted": "+60 16-6787883"
+    }
+  }
+}

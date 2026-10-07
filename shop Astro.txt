@@ -1,0 +1,228 @@
+shop. Astro
+import MainLayout from '../layouts/MainLayout.astro';
+  {/* Hero Section */}
+
+Our Products
+Explore our complete collection of phones and accessories
+  {/* Shop Section /}
+
+        {/ Sidebar Filters */}
+
+CategoryAll ProductsPhonesCases & CoversChargers & CablesAudio & Earbuds
+        <div class="border-t border-border pt-6">
+          <h3 class="text-lg font-bold text-secondary mb-4">Price Range</h3>
+          <div class="space-y-3">
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">Under $25</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">$25 - $50</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">$50 - $100</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">$100+</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="border-t border-border pt-6">
+          <h3 class="text-lg font-bold text-secondary mb-4">Rating</h3>
+          <div class="space-y-3">
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">★★★★★ 5 Stars</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">★★★★ 4+ Stars</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" class="w-4 h-4 border-border rounded" />
+              <span class="text-gray-700">★★★ 3+ Stars</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    {/* Products Grid */}
+    <div class="lg:col-span-3">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Product 1 */}
+        <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+          <div class="bg-white p-4 overflow-hidden">
+            <img
+              src="https://cdn.b12.io/client_media/pahMcnrl/891e7368-2d4a-11f1-9855-0242ac110002-O907lVlT-0FqOlH-vCCq7.jpg"
+              alt="Premium Smartphone"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-secondary mb-2">Premium Smartphone</h3>
+            <p class="text-gray-600 text-sm mb-3">High performance mobile device with latest features</p>
+            <div class="flex items-center gap-2 mb-4">
+              <div class="flex gap-1">
+                <span class="text-primary text-sm">★★★★★</span>
+              </div>
+              <span class="text-gray-600 text-sm">(128)</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-2xl font-bold text-primary">$899</p>
+            </div>
+            <div class="space-y-2">
+              <button class="w-full btn-primary text-center">Add to Cart</button>
+              <a href="/product/phone-1" class="block text-center text-primary font-semibold hover:underline text-sm">View details</a>
+            </div>
+          </div>
+        </div>
+
+        {/* Product 2 */}
+        <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+          <div class="bg-white p-4 overflow-hidden">
+            <img
+              src="https://cdn.b12.io/client_media/pahMcnrl/89007708-2d4a-11f1-bcaa-0242ac110002-F2jqPq0saehI196nbHs3d.jpg"
+              alt="Protective Phone Case"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-secondary mb-2">Protective Phone Case</h3>
+            <p class="text-gray-600 text-sm mb-3">Durable protection with modern design</p>
+            <div class="flex items-center gap-2 mb-4">
+              <div class="flex gap-1">
+                <span class="text-primary text-sm">★★★★☆</span>
+              </div>
+              <span class="text-gray-600 text-sm">(95)</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-2xl font-bold text-primary">$29</p>
+            </div>
+            <div class="space-y-2">
+              <button class="w-full btn-primary text-center">Add to Cart</button>
+              <a href="/product/case-1" class="block text-center text-primary font-semibold hover:underline text-sm">View details</a>
+            </div>
+          </div>
+        </div>
+
+        {/* Product 3 */}
+        <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+          <div class="bg-white p-4 overflow-hidden">
+            <img
+              src="https://cdn.b12.io/client_media/pahMcnrl/88f71865-2d4a-11f1-ad7a-0242ac110002-za2bo3uFua5Ub6Pal8c83.jpg"
+              alt="Fast Charging Cable"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-secondary mb-2">Fast Charging Cable</h3>
+            <p class="text-gray-600 text-sm mb-3">Quick and safe charging for all devices</p>
+            <div class="flex items-center gap-2 mb-4">
+              <div class="flex gap-1">
+                <span class="text-primary text-sm">★★★★★</span>
+              </div>
+              <span class="text-gray-600 text-sm">(234)</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-2xl font-bold text-primary">$19</p>
+            </div>
+            <div class="space-y-2">
+              <button class="w-full btn-primary text-center">Add to Cart</button>
+              <a href="/product/cable-1" class="block text-center text-primary font-semibold hover:underline text-sm">View details</a>
+            </div>
+          </div>
+        </div>
+
+        {/* Product 4 */}
+        <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+          <div class="bg-white p-4 overflow-hidden">
+            <img
+              src="https://cdn.b12.io/client_media/pahMcnrl/88eb6227-2d4a-11f1-a717-0242ac110002-OJNyToAINv5ETB4VLrJ2U.jpg"
+              alt="Wireless Earbuds"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-secondary mb-2">Wireless Earbuds</h3>
+            <p class="text-gray-600 text-sm mb-3">Premium sound quality with noise cancellation</p>
+            <div class="flex items-center gap-2 mb-4">
+              <div class="flex gap-1">
+                <span class="text-primary text-sm">★★★★★</span>
+              </div>
+              <span class="text-gray-600 text-sm">(156)</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-2xl font-bold text-primary">$79</p>
+            </div>
+            <div class="space-y-2">
+              <button class="w-full btn-primary text-center">Add to Cart</button>
+              <a href="/product/earbuds-1" class="block text-center text-primary font-semibold hover:underline text-sm">View details</a>
+            </div>
+          </div>
+        </div>
+
+        {/* Product 5 */}
+        <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+          <div class="bg-white p-4 overflow-hidden">
+            <img
+              src="https://cdn.b12.io/client_media/pahMcnrl/88dd6846-2d4a-11f1-bc79-0242ac110002-0A8LvXhd6RAp9pDH0b1Uk.jpg"
+              alt="Ultra Fast Charger"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-secondary mb-2">Ultra Fast Charger</h3>
+            <p class="text-gray-600 text-sm mb-3">50W fast charging power adapter</p>
+            <div class="flex items-center gap-2 mb-4">
+              <div class="flex gap-1">
+                <span class="text-primary text-sm">★★★★★</span>
+              </div>
+              <span class="text-gray-600 text-sm">(87)</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-2xl font-bold text-primary">$39</p>
+            </div>
+            <div class="space-y-2">
+              <button class="w-full btn-primary text-center">Add to Cart</button>
+              <a href="/product/charger-1" class="block text-center text-primary font-semibold hover:underline text-sm">View details</a>
+            </div>
+          </div>
+        </div>
+
+        {/* Product 6 */}
+        <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+          <div class="bg-white p-4 overflow-hidden">
+            <img
+              src="https://cdn.b12.io/client_media/pahMcnrl/88d31191-2d4a-11f1-acc5-0242ac110002-v0lu6aDmm_HZsvA7ctJQh.jpg"
+              alt="Premium Phone Stand"
+              class="w-full h-64 object-cover rounded-lg"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-secondary mb-2">Premium Phone Stand</h3>
+            <p class="text-gray-600 text-sm mb-3">Adjustable stand for all phone models</p>
+            <div class="flex items-center gap-2 mb-4">
+              <div class="flex gap-1">
+                <span class="text-primary text-sm">★★★★☆</span>
+              </div>
+              <span class="text-gray-600 text-sm">(62)</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-2xl font-bold text-primary">$24</p>
+            </div>
+            <div class="space-y-2">
+              <button class="w-full btn-primary text-center">Add to Cart</button>
+              <a href="/product/stand-1" class="block text-center text-primary font-semibold hover:underline text-sm">View details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,73 @@
+Componen-hearder. Astro
+      {/* Logo */}
+
+Ub
+
+T
+            Tech Tren Hub
+
+  {/* Navigation */}
+  <nav class="hidden md:flex items-center gap-8">
+    <div class="relative group">
+      <button class="text-secondary font-medium hover:text-primary transition-colors flex items-center gap-2">
+        Shop
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </button>
+      <div class="absolute left-0 mt-0 w-48 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+        <a href="/categories/phones" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50 first:rounded-t-lg">Phones</a>
+        <a href="/categories/cases" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50">Cases & Covers</a>
+        <a href="/categories/phone-cases" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50">Phone Cases</a>
+        <a href="/categories/chargers" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50">Chargers & Cables</a>
+        <a href="/categories/earbuds" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50">Audio & Earbuds</a>
+        <a href="/categories/accessories" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50">Accessories</a>
+        <a href="/categories/caps" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50">Trendy Caps & Headwear</a>
+        <a href="/categories/screen-protectors" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-neutral-50 last:rounded-b-lg">Screen Protector</a>
+      </div>
+    </div>
+    <a href="/shop" class="text-secondary font-medium hover:text-primary transition-colors">
+      All Products
+    </a>
+    <a href="/blog" class="text-secondary font-medium hover:text-primary transition-colors">
+      Blog
+    </a>
+    <a href="/reviews" class="text-secondary font-medium hover:text-primary transition-colors">
+      Reviews
+    </a>
+    <a href="/about" class="text-secondary font-medium hover:text-primary transition-colors">
+      About
+    </a>
+    <a href="/contact" class="text-secondary font-medium hover:text-primary transition-colors">
+      Contact
+    </a>
+  </nav>
+
+  {/* Right side icons */}
+  <div class="flex items-center gap-4">
+    {/* Search icon */}
+    <button class="text-secondary hover:text-primary transition-colors" aria-label="Search">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+      </svg>
+    </button>
+
+    {/* Cart icon */}
+    <button class="relative text-secondary hover:text-primary transition-colors" aria-label="Shopping cart">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+      </svg>
+      <span class="absolute -top-2 -right-2 bg-primary text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+        0
+      </span>
+    </button>
+
+    {/* Mobile menu button */}
+    <button class="md:hidden text-secondary hover:text-primary transition-colors" aria-label="Menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+

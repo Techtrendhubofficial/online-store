@@ -1,0 +1,244 @@
+Categories - Screen Protector. Astro
+import MainLayout from '../../layouts/MainLayout.astro';
+  {/* Product Summary Section */}
+
+        {/* Left: Product Image */}
+
+🛡️
+    {/* Right: Product Info */}
+    <div class="md:col-span-2">
+      <h1 class="text-3xl md:text-4xl font-bold text-secondary mb-4">
+        Screen Protector
+      </h1>
+      <div class="mb-6 space-y-2">
+        <p class="text-4xl md:text-5xl font-bold text-primary mb-2">
+          RM30 <span class="text-lg text-gray-600 line-through">per piece</span>
+        </p>
+        <p class="text-2xl font-bold text-primary mb-4">
+          2 for RM30 💫 Wholesaler friendly pricing
+        </p>
+      </div>
+      <div class="bg-primary/10 border-2 border-primary rounded-lg p-4 mb-6">
+        <p class="text-base text-secondary font-semibold">
+          💼 Wholesale Welcome: Price Worth It! Special bulk rates for resellers
+        </p>
+      </div>
+      <div class="space-y-3 text-gray-700">
+        <p><span class="font-semibold">📍 Delivery:</span> Shah Alam (Self-pickup available)</p>
+        <p><span class="font-semibold">🚀 Shipping:</span> Fast shipping throughout West Malaysia</p>
+        <p><span class="font-semibold">💎 Quality:</span> Premium tempered glass with crystal clarity</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* Product Styles/Variants Section */}
+
+        Choose Your Type
+
+Select from our 10 premium screen protector designs
+  {/* Styles Grid - 3 columns */}
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {/* Protector Style 1 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        1
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Ultra Clear Standard
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 2 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        2
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Anti-Glare HD
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 3 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-black to-gray-800 flex items-center justify-center text-white text-6xl font-bold relative">
+        3
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Privacy Shield
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 4 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        4
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Ultra Durable Pro
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 5 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        5
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Curved Edge Premium
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 6 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-yellow-500 to-yellow-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        6
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Oleophobic Coating
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 7 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-pink-500 to-pink-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        7
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Matte Finish Pro
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 8 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        8
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Full Screen Coverage
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 9 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        9
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Impact Shield Extreme
+        </button>
+      </div>
+    </div>
+
+    {/* Protector Style 10 */}
+    <div class="bg-white rounded-xl overflow-hidden border border-border hover:shadow-lg transition-all duration-300 cursor-pointer">
+      <div class="h-56 bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center text-white text-6xl font-bold relative">
+        10
+        <div class="absolute top-3 right-3 bg-white text-secondary rounded-lg px-2 py-1 text-xs font-bold">↗</div>
+      </div>
+      <div class="p-4 text-center">
+        <button class="block w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all text-center">
+          Premium Ultra Thin
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* Options & Specifications Section */}
+
+        选择规格 (Select Options)
+
+  {/* Protector Type Options */}
+  <div class="mb-10">
+    <div class="flex items-center justify-between mb-4">
+      <label class="text-lg font-semibold text-secondary">Protector Type</label>
+      <span class="text-sm text-gray-500">Required</span>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
+        <button key={num} class="border-2 border-border rounded-lg py-2 px-3 text-center hover:border-primary transition-colors font-semibold text-secondary hover:bg-primary hover:text-white">
+          Type {num}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  {/* Quantity Section */}
+  <div class="border-t pt-8">
+    <div class="flex items-center justify-between mb-6">
+      <label class="text-lg font-semibold text-secondary">Quantity (Pieces)</label>
+      <span class="text-sm text-gray-500">Minimum: 2</span>
+    </div>
+    <div class="flex items-center gap-4 max-w-xs">
+      <button class="border-2 border-border rounded-lg w-12 h-12 flex items-center justify-center text-lg hover:border-primary transition-colors">−</button>
+      <input type="number" value="2" min="2" class="flex-1 border-2 border-border rounded-lg px-4 py-2 text-center text-lg font-semibold" />
+      <button class="border-2 border-border rounded-lg w-12 h-12 flex items-center justify-center text-lg hover:border-primary transition-colors">+</button>
+    </div>
+  </div>
+</div>
+
+  {/* Order Summary Section /}
+
+        {/ Left: Delivery & Wholesale Info */}
+
+Delivery & Wholesale Information
+Delivery Location:Shah Alam, Malaysia ▼
+✓ Self-pickup available
+✓ Fast shipping within West Malaysia
+✓ Special bulk rates for wholesalers
+    {/* Right: Price Summary */}
+    <div>
+      <div class="bg-white rounded-lg border border-border p-6 sticky top-20">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <span class="text-gray-600">Protector Type:</span>
+            <span class="font-semibold">-</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-gray-600">Quantity:</span>
+            <span class="font-semibold">0 pieces</span>
+          </div>
+          <div class="border-t pt-4 flex justify-between">
+            <span class="text-lg font-bold text-secondary">Total Price:</span>
+            <span class="text-2xl font-bold text-primary">RM 0.00</span>
+          </div>
+          <p class="text-xs text-gray-500 text-center">
+            Price below is for reference only
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* CTA Section */}
+
+        确定 (Confirm Order via WhatsApp)
+

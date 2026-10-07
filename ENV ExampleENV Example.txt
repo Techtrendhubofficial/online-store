@@ -1,0 +1,78 @@
+ENV. ExampleENV. Example
+Tech Trend Hub - Environment Configuration
+Copy this file to .env.local and fill in your actual values
+==========================================
+🎯 WHATSAPP AUTOMATION
+==========================================
+WHATSAPP_BUSINESS_PHONE=0166787883
+WHATSAPP_API_KEY=your_whatsapp_api_key_here
+WHATSAPP_ACCOUNT_ID=your_whatsapp_business_account_id
+WhatsApp Message Templates for Order Conversion
+WHATSAPP_ORDER_MESSAGE_TEMPLATE="Hi, I want to order [PRODUCT_NAME]. Please provide payment details and delivery options."
+WHATSAPP_BULK_INQUIRY_TEMPLATE="Hi, I'm interested in bulk wholesale orders. Can you provide pricing and MOQ details?"
+==========================================
+📱 SOCIAL MEDIA AUTOMATION
+==========================================
+TikTok API Configuration (for automated video posting)
+TIKTOK_API_KEY=your_tiktok_api_key
+TIKTOK_API_SECRET=your_tiktok_api_secret
+TIKTOK_ACCESS_TOKEN=your_tiktok_access_token
+TIKTOK_BUSINESS_ACCOUNT_ID=your_business_account_id
+TIKTOK_POSTING_SCHEDULE=0 10,14,18 * * * # Cron: 10am, 2pm, 6pm daily
+Instagram API Configuration (for automated posts/reels)
+INSTAGRAM_GRAPH_API_TOKEN=your_instagram_graph_api_token
+INSTAGRAM_BUSINESS_ACCOUNT_ID=your_instagram_business_account_id
+INSTAGRAM_POSTING_SCHEDULE=0 9,15,20 * * * # Cron: 9am, 3pm, 8pm daily
+Video Content Paths (for automation)
+VIDEO_SCRIPTS_PATH=/content/automation/beats-studio-pro-navy.md
+PRODUCT_CATALOG_PATH=/content/automation/catalog.json
+GENERATED_VIDEOS_PATH=/public/generated-videos/
+Social Media Hashtag Configuration
+SOCIAL_HASHTAGS_TECH=#techtrendhub #phonegadgets #accessories #techgear #shahalam
+SOCIAL_HASHTAGS_PROMO=#wholesale #bulkorder #promotion #limited
+SOCIAL_HASHTAGS_PRODUCT=#beats #studioPro #wireless #noisecancel
+==========================================
+📊 GOOGLE MERCHANT CENTER COMPLIANCE
+==========================================
+GOOGLE_MERCHANT_CENTER_ID=your_merchant_center_id
+GOOGLE_BUSINESS_ACCOUNT_EMAIL=your_business_email@gmail.com
+Automatic Feed Generation for Google Merchant Center
+FEED_GENERATION_SCHEDULE=0 0 * * * # Daily at midnight
+FEED_OUTPUT_PATH=/public/feeds/merchant-feed.xml
+==========================================
+🔒 SECURITY & API KEYS
+==========================================
+API_SECRET_KEY=your_secret_key_for_api_endpoints
+ENCRYPTION_KEY=your_encryption_key_for_sensitive_data
+WEBHOOK_SECRET=your_webhook_secret_for_validating_requests
+==========================================
+📧 EMAIL NOTIFICATIONS (for orders & compliance)
+==========================================
+SMTP_HOST=your_email_provider_smtp
+SMTP_PORT=587
+SMTP_PASSWORD=your_email_password
+SMTP_USER=your_email@example.comNOTIFICATION_EMAIL=admin@techtrendhub.my
+==========================================
+🗄️ DATABASE CONFIGURATION (if using backend)
+==========================================
+Database_URL=mongodb+srv://username:password@cluster.mongodb.net/techtrendhub
+DATABASE_TYPE=mongodb
+DATABASE_NAME=techtrendhub_db
+==========================================
+🚀 DEPLOYMENT & GENERAL
+==========================================
+NODE_ENV=production
+ANALYTICS_ID=your_google_analytics_id
+SITE_URL=https://techtrendhub.myENVIRONMENT=production
+==========================================
+🔄 AUTOMATION WORKFLOWS (Scheduling)
+==========================================
+Enable/disable automated tasks
+ENABLE_SOCIAL_POSTING=true
+ENABLE_MERCHANT_FEED_GENERATION=true
+ENABLE_WHATSAPP_AUTO_REPLIES=true
+ENABLE_INVENTORY_SYNC=true
+Automation service URLs (if using external services like Zapier, IFTTT, etc.)
+ZAPIER_WEBHOOK_URL=your_zapier_webhook_url
+MAKE_WEBHOOK_URL=your_make_webhook_url
+AUTOMATION_POLLING_INTERVAL=300 # seconds (5 minutes)

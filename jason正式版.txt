@@ -1,0 +1,75 @@
+.jason正式版
+[
+  {
+    "id": "testimonial-1",
+    "name": "Sarah Johnson",
+    "title": "Professional Photographer",
+    "rating": 5,
+    "text": "The smartphone from Tech Trend Hub exceeded my expectations! The camera quality is outstanding, and the processing power handles my heavy workload seamlessly. Highly recommended!",
+    "product": "Premium Smartphone",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=Sarah"
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Michael Chen",
+    "title": "Business Executive",
+    "rating": 5,
+    "text": "I've purchased several accessories from Tech Trend Hub, and the quality is consistently excellent. Their customer service is responsive and helpful. A great shopping experience!",
+    "product": "Wireless Earbuds",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=Michael"
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Emma Williams",
+    "title": "Student",
+    "rating": 5,
+    "text": "The protective case saved my phone from a terrible drop. It's durable, stylish, and affordable. Worth every penny! I've already recommended it to all my friends.",
+    "product": "Protective Phone Case",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=Emma"
+  },
+  {
+    "id": "testimonial-4",
+    "name": "David Rodriguez",
+    "title": "Content Creator",
+    "rating": 5,
+    "text": "The fast charger is a game-changer for my workflow. It charges my devices incredibly quickly, and the build quality is premium. Perfect for someone always on the go.",
+    "product": "Ultra Fast Charger",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=David"
+  },
+  {
+    "id": "testimonial-5",
+    "name": "Jessica Lee",
+    "title": "Fitness Enthusiast",
+    "rating": 5,
+    "text": "The wireless earbuds are perfect for my workouts. They stay in place, the sound quality is incredible, and the noise cancellation is impressive. Can't imagine working out without them now!",
+    "product": "Wireless Earbuds",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=Jessica"
+  },
+  {
+    "id": "testimonial-6",
+    "name": "Robert Martinez",
+    "title": "Tech Enthusiast",
+    "rating": 4,
+    "text": "Great selection of quality products at competitive prices. The phone stand is especially useful for my desk setup. Will definitely shop here again.",
+    "product": "Premium Phone Stand",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=Robert"
+  },
+  {
+    "id": "testimonial-7",
+    "name": "Amanda Foster",
+    "title": "Remote Worker",
+    "rating": 5,
+    "text": "Tech Trend Hub has become my go-to for all my gadget needs. The quality is exceptional, shipping is fast, and the prices are fair. Highly satisfied customer!",
+    "product": "Premium Smartphone",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=Amanda"
+  },
+  {
+    "id": "testimonial-8",
+    "name": "James Wilson",
+    "title": "Gamer",
+    "rating": 5,
+    "text": "The latest smartphone handles all my games at maximum settings. Combined with the fast charger, it's the perfect gaming setup. Couldn't be happier!",
+    "product": "Premium Smartphone",
+    "image": "https://api.dicebear.com/9.x/avataaars/svg?seed=James"
+  }
+]

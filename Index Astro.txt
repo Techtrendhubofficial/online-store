@@ -1,0 +1,284 @@
+Index. Astro
+import MainLayout from '../layouts/MainLayout.astro';
+import Newsletter from '../components/Newsletter.astro';
+  {/* Hero Section */}
+
+        {/* Left Column */}
+
+              Latest Phone Gadgets
+
+              Tech Tren Hub
+
+            Discover the latest phone gadgets and accessories. Premium quality, competitive prices, fast shipping.
+
+      <div class="flex flex-col sm:flex-row gap-4 pt-4">
+        <a href="/categories/phones" class="btn-primary text-center">
+          Shop Phones
+        </a>
+        <a href="/shop" class="btn-secondary text-center">
+          Browse All Products
+        </a>
+      </div>
+    </div>
+
+    {/* Right Column - Hero Image */}
+    <div class="animate-slide-up">
+      <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/8928103f-2d4a-11f1-bcc3-0242ac110002-dqogjTOrMkA5l6e_qghcP.jpg"
+          alt="Tech products showcase"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* Featured Categories Section */}
+
+Shop by Category
+Browse our wide selection of tech gadgets
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {/* Phones Category */}
+    <a href="/categories/phones" class="card-hover p-8 rounded-xl border-2 border-border bg-white text-center transition-all hover:border-primary">
+      <div class="mb-4 flex justify-center">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/88d31191-2d4a-11f1-acc5-0242ac110002-v0lu6aDmm_HZsvA7ctJQh.jpg"
+          alt="Phones icon"
+          class="w-16 h-16"
+        />
+      </div>
+      <h3 class="text-xl font-bold text-secondary">Phones</h3>
+      <p class="text-gray-600 text-sm mt-2">Latest models & designs</p>
+    </a>
+
+    {/* Cases Category */}
+    <a href="/categories/cases" class="card-hover p-8 rounded-xl border-2 border-border bg-white text-center transition-all hover:border-primary">
+      <div class="mb-4 flex justify-center">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/89316b71-2d4a-11f1-898e-0242ac110002-a6Blh-8Cm9SgMOx5KTqni.jpg"
+          alt="Cases icon"
+          class="w-16 h-16"
+        />
+      </div>
+      <h3 class="text-xl font-bold text-secondary">Cases & Covers</h3>
+      <p class="text-gray-600 text-sm mt-2">Protective & stylish</p>
+    </a>
+
+    {/* Chargers Category */}
+    <a href="/categories/chargers" class="card-hover p-8 rounded-xl border-2 border-border bg-white text-center transition-all hover:border-primary">
+      <div class="mb-4 flex justify-center">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/88dd6846-2d4a-11f1-bc79-0242ac110002-0A8LvXhd6RAp9pDH0b1Uk.jpg"
+          alt="Chargers icon"
+          class="w-16 h-16"
+        />
+      </div>
+      <h3 class="text-xl font-bold text-secondary">Chargers & Cables</h3>
+      <p class="text-gray-600 text-sm mt-2">Fast & reliable charging</p>
+    </a>
+
+    {/* Audio Category */}
+    <a href="/categories/earbuds" class="card-hover p-8 rounded-xl border-2 border-border bg-white text-center transition-all hover:border-primary">
+      <div class="mb-4 flex justify-center">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/88e88859-2d4a-11f1-bf30-0242ac110002-hdLqgxaosReUJDZ741vMW.jpg"
+          alt="Audio icon"
+          class="w-16 h-16"
+        />
+      </div>
+      <h3 class="text-xl font-bold text-secondary">Audio & Earbuds</h3>
+      <p class="text-gray-600 text-sm mt-2">Premium sound quality</p>
+    </a>
+  </div>
+</div>
+
+  {/* Featured Products Section */}
+
+Trending Now
+Discover our best-selling tech gadgets
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {/* Product 1 */}
+    <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+      <div class="bg-white p-4 overflow-hidden">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/891e7368-2d4a-11f1-9855-0242ac110002-O907lVlT-0FqOlH-vCCq7.jpg"
+          alt="Premium Smartphone"
+          class="w-full h-64 object-cover rounded-lg"
+        />
+      </div>
+      <div class="p-6">
+        <h3 class="text-lg font-bold text-secondary mb-2">Premium Smartphone</h3>
+        <p class="text-gray-600 text-sm mb-4">High performance mobile device</p>
+        <div class="mb-4">
+          <p class="text-2xl font-bold text-primary">$899</p>
+        </div>
+        <div class="space-y-2">
+          <button class="w-full btn-primary text-center">
+            Add to Cart
+          </button>
+          <a href="/product/phone-1" class="block text-center text-primary font-semibold hover:underline text-sm">
+            View details
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Product 2 */}
+    <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+      <div class="bg-white p-4 overflow-hidden">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/89007708-2d4a-11f1-bcaa-0242ac110002-F2jqPq0saehI196nbHs3d.jpg"
+          alt="Protective Phone Case"
+          class="w-full h-64 object-cover rounded-lg"
+        />
+      </div>
+      <div class="p-6">
+        <h3 class="text-lg font-bold text-secondary mb-2">Protective Phone Case</h3>
+        <p class="text-gray-600 text-sm mb-4">Durable protection with style</p>
+        <div class="mb-4">
+          <p class="text-2xl font-bold text-primary">$29</p>
+        </div>
+        <div class="space-y-2">
+          <button class="w-full btn-primary text-center">
+            Add to Cart
+          </button>
+          <a href="/product/case-1" class="block text-center text-primary font-semibold hover:underline text-sm">
+            View details
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Product 3 */}
+    <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+      <div class="bg-white p-4 overflow-hidden">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/88f71865-2d4a-11f1-ad7a-0242ac110002-za2bo3uFua5Ub6Pal8c83.jpg"
+          alt="Fast Charging Cable"
+          class="w-full h-64 object-cover rounded-lg"
+        />
+      </div>
+      <div class="p-6">
+        <h3 class="text-lg font-bold text-secondary mb-2">Fast Charging Cable</h3>
+        <p class="text-gray-600 text-sm mb-4">Quick and safe charging</p>
+        <div class="mb-4">
+          <p class="text-2xl font-bold text-primary">$19</p>
+        </div>
+        <div class="space-y-2">
+          <button class="w-full btn-primary text-center">
+            Add to Cart
+          </button>
+          <a href="/product/cable-1" class="block text-center text-primary font-semibold hover:underline text-sm">
+            View details
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Product 4 */}
+    <div class="card-hover bg-white rounded-xl overflow-hidden shadow-md border border-border">
+      <div class="bg-white p-4 overflow-hidden">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/88eb6227-2d4a-11f1-a717-0242ac110002-OJNyToAINv5ETB4VLrJ2U.jpg"
+          alt="Wireless Earbuds"
+          class="w-full h-64 object-cover rounded-lg"
+        />
+      </div>
+      <div class="p-6">
+        <h3 class="text-lg font-bold text-secondary mb-2">Wireless Earbuds</h3>
+        <p class="text-gray-600 text-sm mb-4">Premium sound quality</p>
+        <div class="mb-4">
+          <p class="text-2xl font-bold text-primary">$79</p>
+        </div>
+        <div class="space-y-2">
+          <button class="w-full btn-primary text-center">
+            Add to Cart
+          </button>
+          <a href="/product/earbuds-1" class="block text-center text-primary font-semibold hover:underline text-sm">
+            View details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* Benefits Section /}
+
+        {/ Fast Shipping */}
+
+Fast Shipping
+Quick and reliable delivery to your doorstep
+    {/* Quality Accessories */}
+    <div class="flex flex-col items-center text-center">
+      <div class="mb-4">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/88ffaeb6-2d4a-11f1-bc1a-0242ac110002-PZvjK-YCZHa6EczzMtc6_.jpg"
+          alt="Quality Guarantee"
+          class="w-20 h-20"
+        />
+      </div>
+      <h3 class="text-xl font-bold text-secondary mb-2">Quality Phone Accessories</h3>
+      <p class="text-gray-600">Premium products tested for durability and performance</p>
+    </div>
+
+    {/* Secure Checkout */}
+    <div class="flex flex-col items-center text-center">
+      <div class="mb-4">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/89064096-2d4a-11f1-8bb0-0242ac110002-t9gdpfvrZz7yaKcZAPmPc.jpg"
+          alt="Secure Checkout"
+          class="w-20 h-20"
+        />
+      </div>
+      <h3 class="text-xl font-bold text-secondary mb-2">Secure Checkout</h3>
+      <p class="text-gray-600">Safe and encrypted payment processing</p>
+    </div>
+  </div>
+</div>
+
+  {/* Wholesale Promotion Section /}
+
+        {/ Left Column - Content */}
+
+              Special Offer
+
+              Wholesale Opportunities in Malaysia
+
+            Grab premium phone gadgets and accessories while stock lasts! We offer exceptional wholesale pricing for bulk orders. Based in Shah Alam with fast delivery across West Malaysia.
+
+      <div class="pt-4 space-y-3">
+        <p class="font-semibold text-blue-50">✓ Competitive wholesale prices</p>
+        <p class="font-semibold text-blue-50">✓ Fast shipping within West Malaysia</p>
+        <p class="font-semibold text-blue-50">✓ Self-pickup available in Shah Alam</p>
+        <p class="font-semibold text-blue-50">✓ Bulk order discounts</p>
+      </div>
+
+      <div class="pt-6">
+        <a
+          href="https://wa.me/60166787883?text=Hi!%20I'm%20interested%20in%20wholesale%20orders%20for%20phone%20gadgets%20and%20accessories.%20Can%20you%20provide%20details?"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-white text-primary font-bold py-3 px-8 rounded-lg hover:bg-blue-50 transition-colors"
+        >
+          Contact via WhatsApp
+        </a>
+      </div>
+    </div>
+
+    {/* Right Column - Image */}
+    <div class="animate-slide-up">
+      <div class="rounded-2xl overflow-hidden shadow-2xl">
+        <img
+          src="https://cdn.b12.io/client_media/pahMcnrl/633c2184-422f-11f1-83fe-0242ac110002-1688_image_share_d1633ca657f8c79a617b7614b5d542c6.jpg"
+          alt="Wholesale offer - Grab Now while Stock last"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+  {/* Newsletter Section */}
+

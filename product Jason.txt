@@ -1,0 +1,277 @@
+product. Jason
+[
+  {
+    "id": "phone-1",
+    "name": "Premium Smartphone",
+    "category": "phones",
+    "price": 899,
+    "rating": 5,
+    "reviews": 128,
+    "image": "https://cdn.b12.io/client_media/pahMcnrl/891e7368-2d4a-11f1-9855-0242ac110002-O907lVlT-0FqOlH-vCCq7.jpg",
+    "shortDescription": "High performance mobile device with latest features",
+    "fullDescription": "The Premium Smartphone features cutting-edge technology with a 6.7" AMOLED display, 120Hz refresh rate, and the latest processor. Perfect for gaming, photography, and everyday tasks.",
+    "specs": {
+      "display": "6.7" AMOLED, 120Hz",
+      "processor": "Latest Generation",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "108MP Main + 50MP Ultra Wide",
+      "battery": "4500mAh"
+    }
+  },
+  {
+    "id": "case-1",
+    "name": "Protective Phone Case",
+    "category": "cases",
+    "price": 29,
+    "rating": 4,
+    "reviews": 95,
+    "image": "https://cdn.b12.io/client_media/pahMcnrl/89007708-2d4a-11f1-bcaa-0242ac110002-F2jqPq0saehI196nbHs3d.jpg",
+    "shortDescription": "Durable protection with modern design",
+    "fullDescription": "This protective phone case combines military-grade durability with a sleek, modern design. Features shock absorption technology and raised bezels for screen and camera protection.",
+    "specs": {
+      "material": "TPU + Polycarbonate",
+      "colors": "Black, Blue, Red",
+      "weight": "150g",
+      "compatibility": "All major phone models"
+    }
+  },
+  {
+    "id": "cable-1",
+    "name": "Fast Charging Cable",
+    "category": "chargers",
+    "price": 19,
+    "rating": 5,
+    "reviews": 234,
+    "image": "https://cdn.b12.io/client_media/pahMcnrl/88f71865-2d4a-11f1-ad7a-0242ac110002-za2bo3uFua5Ub6Pal8c83.jpg",
+    "shortDescription": "Quick and safe charging for all devices",
+    "fullDescription": "Premium USB-C charging cable with fast power delivery. Safe for all devices with built-in protection against overcharging and overheating.",
+    "specs": {
+      "length": "2 meters",
+      "type": "USB-C",
+      "power": "100W",
+      "certification": "Certified Safe"
+    }
+  },
+  {
+    "id": "earbuds-1",
+    "name": "Wireless Earbuds",
+    "category": "earbuds",
+    "price": 79,
+    "rating": 5,
+    "reviews": 156,
+    "image": "https://cdn.b12.io/client_media/pahMcnrl/88eb6227-2d4a-11f1-a717-0242ac110002-OJNyToAINv5ETB4VLrJ2U.jpg",
+    "shortDescription": "Premium sound quality with noise cancellation",
+    "fullDescription": "Experience premium audio with active noise cancellation, 10-hour battery life, and premium build quality. Perfect for work, travel, and daily use.",
+    "specs": {
+      "batteryLife": "10 hours",
+      "noiseCancel": "Active ANC",
+      "drivers": "12mm",
+      "charging": "Wireless"
+    }
+  },
+  {
+    "id": "charger-1",
+    "name": "Ultra Fast Charger",
+    "category": "chargers",
+    "price": 39,
+    "rating": 5,
+    "reviews": 87,
+    "image": "https://cdn.b12.io/client_media/pahMcnrl/88dd6846-2d4a-11f1-bc79-0242ac110002-0A8LvXhd6RAp9pDH0b1Uk.jpg",
+    "shortDescription": "50W fast charging power adapter",
+    "fullDescription": "Super-fast 50W charger that can charge your phone to 80% in under 30 minutes. Dual ports for charging multiple devices simultaneously.",
+    "specs": {
+      "power": "50W",
+      "ports": "2x USB-C",
+      "safetyFeatures": "Temperature Control",
+      "universal": "Works with most devices"
+    }
+  },
+  {
+    "id": "stand-1",
+    "name": "Premium Phone Stand",
+    "category": "accessories",
+    "price": 24,
+    "rating": 4,
+    "reviews": 62,
+    "image": "https://cdn.b12.io/client_media/pahMcnrl/88d31191-2d4a-11f1-acc5-0242ac110002-v0lu6aDmm_HZsvA7ctJQh.jpg",
+    "shortDescription": "Adjustable stand for all phone models",
+    "fullDescription": "Premium aluminum stand with multi-angle adjustment. Perfect for video calls, watching content, or displaying your device.",
+    "specs": {
+      "material": "Aluminum",
+      "angles": "Multiple positions",
+      "maxLoad": "1kg",
+      "portable": "Compact design"
+    }
+  },
+  {
+    "id": "cap-1",
+    "name": "#1 Classic Navy Brooklyn",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 45,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Premium urban cap with classic navy color and Brooklyn embroidery. Perfect for streetwear enthusiasts. Based in Shah Alam with self-pickup and fast shipping available across West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #1",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Navy",
+      "design": "Brooklyn embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-2",
+    "name": "#2 Star Hip-hop",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 38,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Bold black cap with minimalist plus design. A trendy essential for hip-hop and streetwear fashion. Shop from Shah Alam - self-pickup or fast shipping within West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #2",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Black",
+      "design": "Minimalist plus embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-3",
+    "name": "#3 Classic UI Star",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 52,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Navy and white cap featuring classic star embroidery. A versatile piece that works with any casual outfit. Order via WhatsApp or visit our Shah Alam location for instant pickup.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #3",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Navy/White",
+      "design": "Star embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-4",
+    "name": "#4 Classy Bucket",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 4,
+    "reviews": 35,
+    "shortDescription": "Vintage-style embroidered bucket cap",
+    "fullDescription": "Premium black bucket cap combining style and functionality. Perfect for outdoor activities and casual wear. Buy from Shah Alam - we offer convenient self-pickup and speedy West Malaysia shipping.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #4",
+    "specs": {
+      "style": "Bucket cap",
+      "color": "Black",
+      "design": "Classic embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-5",
+    "name": "#5 Classic Logo",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 48,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Navy baseball cap with iconic logo embroidery. A timeless piece for everyday wear. Located in Shah Alam - grab yours with self-pickup or get fast delivery across West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #5",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Navy",
+      "design": "Logo embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-6",
+    "name": "#6 Classic Disney",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 41,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Navy cap with striking red star embroidery. A unique piece combining vintage vibes with modern streetwear. Order now from Shah Alam - self-pickup available or fast shipping throughout West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #6",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Navy",
+      "design": "Star embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-7",
+    "name": "#7 Classic Frawds",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 39,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Dark blue cap with classic LA logo embroidery. Perfect for sports fans and vintage enthusiasts. Shop with us in Shah Alam - enjoy self-pickup convenience or rapid West Malaysia delivery.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #7",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Dark Blue",
+      "design": "LA logo embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-8",
+    "name": "#8 Classic Brooklyn",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 46,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Rich brown baseball cap with bold embroidery. A warm-toned addition to your cap collection. Based in Shah Alam - order via WhatsApp or pick up locally, or we'll ship fast across West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #8",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Brown",
+      "design": "Brooklyn embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-9",
+    "name": "#9 Vintage Navy Logo",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 43,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Classic navy baseball cap with vintage logo embroidery. An essential piece for any streetwear wardrobe. Order from Shah Alam - choose self-pickup or speedy shipping to anywhere in West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #9",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Navy",
+      "design": "Logo embroidered",
+      "type": "Vintage-style"
+    }
+  },
+  {
+    "id": "cap-10",
+    "name": "#10 Classic Burny",
+    "category": "caps",
+    "price": "RM30 (Promo: 2 for RM30)",
+    "rating": 5,
+    "reviews": 50,
+    "shortDescription": "Vintage-style embroidered baseball cap",
+    "fullDescription": "Cream and black two-tone cap with burgundy logo. A premium statement piece for trendsetters. Located in Shah Alam - we offer convenient self-pickup and fast shipping across West Malaysia.",
+    "whatsappLink": "https://wa.me/60166787883?text=Hi, I want to order Cap #10",
+    "specs": {
+      "style": "Baseball cap",
+      "color": "Cream/Black",
+      "design": "Logo embroidered",
+      "type": "Vintage-style"
+    }
+  }
+]
