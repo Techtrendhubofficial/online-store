@@ -1,0 +1,3 @@
+import express from 'express';import axios from 'axios';
+const app = express();app.use(express.json());
+const WHATSAPP_TOKEN = process.env.WHATSAPP_API_KEY; // Meta Cloud API Token
