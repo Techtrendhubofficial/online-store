@@ -1,0 +1,7 @@
+astro
+---import { MessageCircle } from 'lucide-astro';
+interface Props {  productName: string;  itemNumber: string;  isBulk?: boolean;  className?: string;}
+const { productName, itemNumber, isBulk = false, className = "" } = Astro.props;
+const phoneNumber = "60166787883";const message = isBulk   ? `Hi, I'm interested in bulk wholesale orders for ${productName} (#${itemNumber}). Can you provide pricing and MOQ details?`  : `Hi, I want to order ${productName} (#${itemNumber}). Please provide payment details and delivery options.`;
+const encodedMessage = encodeURIComponent(message);const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;---
+<a   href={whatsappUrl}  target="_blank"  rel="noopener noreferrer"  class={`inline-flex items-center justify-center gap-2 rounded-md bg-green-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 ${className}`}  aria-label={`Order ${productName} via WhatsApp`}>  <MessageCircle class="h-4 w-4" />  {isBulk ? 'Inquire Bulk via WhatsApp' : 'Order via WhatsApp'}</a>
