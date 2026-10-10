@@ -1,0 +1,29 @@
+name: Generate & Upload GMC Feed
+on:
+  schedule:
+    - cron: '0 16 * * *' # 00:00 UTC+8 (Midnight Malaysia Time)
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate GMC XML Feed
+        env:
+          GMC_MERCHANT_ID: ${{ secrets.GMC_MERCHANT_ID }}
+          GMC_PRIVATE_KEY: ${{ secrets.GMC_PRIVATE_KEY }}
+        run: node scripts/generate-gmc-feed.js
+
+      - name: Upload Feed to Google Merchant Center
+        run: node scripts/upload-gmc-feed.js
