@@ -1,8 +1,8 @@
 name: Generate & Upload GMC Feed
 on:
   schedule:
-    - cron: '0 16 * * *' # 00:00 UTC+8 (Midnight Malaysia Time)
-  workflow_dispatch: # Allow manual trigger
+    - cron: '0 16 * * *' # 00:00 MYT
+  workflow_dispatch:
 
 jobs:
   generate-feed:
@@ -21,9 +21,20 @@ jobs:
 
       - name: Generate GMC XML Feed
         env:
-          GMC_MERCHANT_ID: ${{ secrets.GMC_MERCHANT_ID }}
-          GMC_PRIVATE_KEY: ${{ secrets.GMC_PRIVATE_KEY }}
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_TOKEN }}
         run: node scripts/generate-gmc-feed.js
 
-      - name: Upload Feed to Google Merchant Center
+      - name: Commit Feed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add public/*.xml
+          git commit -m "auto update gmc feed" || echo "No changes"
+          git push
+
+      - name: Upload Feed to GMC
+        env:
+          GMC_MERCHANT_ID: ${{ secrets.GMC_MERCHANT_ID }}
+          GMC_PRIVATE_KEY: ${{ secrets.GMC_PRIVATE_KEY }}
         run: node scripts/upload-gmc-feed.js
